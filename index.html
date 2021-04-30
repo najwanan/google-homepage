@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <style>
+       
+
+       
+       /*styling the search bar*/
+
+       .search input[type=text]{
+           width: 550px;
+           height: 40px;
+           border-radius: 35px;
+           border-color: lightgrey;
+           border-width: 2px;
+           text-indent: 30px;;
+           
+       }
+
+       .search .material{
+           position: absolute;
+           top: 24px;
+           left: 7px;
+
+       }
+           
+
+       .search{
+            /*sizing*/
+           display:flex;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+         
+       }
+
+       
+       .logo{
+           /*sizing*/
+           width: 100vw;
+           height: 25vw;
+           /*flexbox*/
+           display:flex;
+           align-items:flex-end;
+           justify-content: center;
+           text-align: center;
+           padding-bottom: 15px;
+       }
+
+       .logo, .search, .buttons{
+           position:relative;
+           margin-left: auto;
+           margin-right: auto;
+           left: 0;
+           right: 0;
+       }
+        /*styling the navbar*/
+       .header-nav{
+        position:absolute;
+       }
+        .header-nav{
+
+           float: left;
+           text-align: center;
+           left:20;
+           top:15;
+           height: 50px;
+           font-family: Arial, Helvetica, sans-serif;
+           padding: 15px;
+           font-size: 15px;
+           font-weight:lighter;
+       }
+
+       .header-right{
+           float:right;
+       }
+
+     
+
+       .header-nav li{
+        list-style-type: none;
+            float: left;
+           margin: 15px;
+        
+           
+       }
+       .header-nav li a{
+       
+           color:black;
+           text-decoration:none;
+           text-emphasis: none;
+       }
+
+   
+       body{
+           font-family: Arial, Helvetica, sans-serif;
+       }
+        /*styling the buttons*/
+
+        .button1{
+            border:none;
+            color: lightgray;
+            padding: 10px;
+            text-align:none;
+            align-items:center;
+            justify-content: center;
+        }
+
+        .buttons{
+           display:flex;
+           align-items: center;
+           justify-content: center;
+           padding-top: 2%;
+         
+       }
+
+       
+
+        
+       /*styling the footer*/
+
+       .footer{
+           position: fixed;
+           float:left;
+           left:0;
+           bottom: 0;
+           width: 100%;
+           background-color: lightgrey;
+           text-decoration-color: black;
+           text-align:left;
+           font-size: smaller;
+        
+       }
+
+       .footer a{
+           color: grey;
+           text-decoration: none;
+           text-emphasis: none;
+           margin:15px;
+           font-size: medium;
+
+       }
+
+       .footer-right{
+        float:right;
+        padding-inline: 25px;
+
+       }
+         
+    
+   </style>
+   <div class= "header-nav">
+
+            <li><a href="#about">About</a></li>
+            <li><a href="#store">Store</a></li>
+        <div class= "header-right">
+            <li><a href="#gmail">Gmail</a></li>
+            <li><a href="#images">Images</a></li>
+        </div>
+      
+    
+    
+    </div>
+   
+    <body>
+        <div class="logo">
+                <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google icon">
+        </div>
+
+            <div class="search">
+                <span class="material-icons">search</span>
+               <input type="text"
+                      name="searchbar"> 
+                <span class="material-icons">mic_none</span>
+            </div>
+        
+            <section class ="buttons">
+                <div class="buttonbar">
+                    <button type ="button" name="button1">Google Search</button>
+                    <button type ="button button2">I'm feeling lucky!</button>
+                </div>
+               
+            </section>
+        
+         <div class="footer">
+             <ul>
+                 <a href=#advertising">Advertising</a>
+                 <a href=#business">Business</a>
+                 <a href=#howsearchworks">How Search Works</a>
+                 <div class="footer-right">
+                    <a href=#privacy">Privacy</a>
+                    <a href=#terms">Terms</a>
+                    <a href=#settings">Settings</a>
+                 </div>
+                
+             </ul>
+         </div>   
+    
+        
+        
+    </body>
+
+    
+  
+
+    
+
+
+</html>
