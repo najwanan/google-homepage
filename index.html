@@ -74,13 +74,14 @@
 
        .header-right{
            float:right;
+          
        }
 
      
 
        .header-nav li{
         list-style-type: none;
-            float: left;
+           float: left;
            margin: 15px;
         
            
@@ -105,6 +106,9 @@
             text-align:none;
             align-items:center;
             justify-content: center;
+            -webkit-appearance: none;
+            appearance: none;
+            
         }
 
         .buttons{
@@ -112,12 +116,12 @@
            align-items: center;
            justify-content: center;
            padding-top: 2%;
-         
+           -webkit-appearance: none;
+           appearance: none;
+            
        }
 
        
-
-        
        /*styling the footer*/
 
        .footer{
@@ -164,21 +168,24 @@
     </div>
    
     <body>
+             
         <div class="logo">
-                <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google icon">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon">
         </div>
-
             <div class="search">
+                
                 <span class="material-icons">search</span>
                <input type="text"
                       name="searchbar"> 
                 <span class="material-icons">mic_none</span>
             </div>
         
+        
+
             <section class ="buttons">
                 <div class="buttonbar">
                     <button type ="button" name="button1">Google Search</button>
-                    <button type ="button button2">I'm feeling lucky!</button>
+                    <button type ="button" name ="button2">I'm feeling lucky!</button>
                 </div>
                
             </section>
